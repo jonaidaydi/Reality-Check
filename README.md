@@ -13,7 +13,7 @@ sdk_version: 6.9.0
 
 # ❤️ Reality Check
 
-**Erzähl mir, was passiert ist — und ich helfe dir, es klarer zu sehen.**
+**Erzähl mir, was passiert ist - und ich helfe dir, es klarer zu sehen.**
 
 [![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-blue)](https://huggingface.co/spaces/OrangeDev/Reality-Check)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://python.org)
@@ -22,7 +22,7 @@ sdk_version: 6.9.0
 
 <br>
 
-*Ein KI-gestützter Analyse-Assistent für Chatverläufe, Beziehungssituationen und emotionale Dynamiken — entwickelt, um Muster sichtbar zu machen, statt Wunschdenken zu verstärken.*
+*Ein KI-gestützter Analyse-Assistent für Chatverläufe, Beziehungssituationen und emotionale Dynamiken - entwickelt, um Muster sichtbar zu machen, statt Wunschdenken zu verstärken.*
 
 <br>
 
@@ -40,7 +40,7 @@ Der Fokus liegt nicht auf endgültigen Urteilen, sondern auf **Orientierung, Str
 
 > *Gefühle sind echt. Aber ihre Interpretation ist nicht immer eindeutig.*
 
-Reality Check will nicht entscheiden, was du fühlen sollst — sondern dir helfen, klarer zu erkennen, **was tatsächlich im Verhalten der anderen Person sichtbar wird**.
+Reality Check will nicht entscheiden, was du fühlen sollst - sondern dir helfen, klarer zu erkennen, **was tatsächlich im Verhalten der anderen Person sichtbar wird**.
 
 ---
 
@@ -230,7 +230,7 @@ Dieses Tool ersetzt nicht:
 - keine rechtliche Einschätzung
 - keine ehrliche Kommunikation zwischen Menschen
 
-> Reality Check ist ein Spiegel — kein Urteil.
+> Reality Check ist ein Spiegel - kein Urteil.
 
 ---
 

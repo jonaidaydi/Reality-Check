@@ -7,6 +7,7 @@ import httpx
 from dotenv import load_dotenv
 
 import pytesseract
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 from PIL import Image
 
 load_dotenv()
@@ -735,19 +736,28 @@ PDF_BUTTON_HTML = """
         return;
       }
 
-      const win = window.open("", "_blank", "width=1100,height=900");
-      if (!win) {
-        alert("Popup blockiert. Bitte Popups für diese Seite erlauben.");
-        return;
-      }
+      const oldFrame = document.getElementById("print-frame");
+      if (oldFrame) oldFrame.remove();
 
+      const iframe = document.createElement("iframe");
+      iframe.id = "print-frame";
+      iframe.style.position = "fixed";
+      iframe.style.right = "0";
+      iframe.style.bottom = "0";
+      iframe.style.width = "0";
+      iframe.style.height = "0";
+      iframe.style.border = "0";
+      document.body.appendChild(iframe);
+
+      const doc = iframe.contentWindow.document;
       const reportHtml = report.outerHTML;
 
-      win.document.open();
-      win.document.write(`
+      doc.open();
+      doc.write(`
         <html>
           <head>
-            <title>Love Reality Check Report</title>
+            <title>Reality Check Report</title>
+            <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <style>
               html, body {
@@ -760,15 +770,17 @@ PDF_BUTTON_HTML = """
                 print-color-adjust: exact;
               }
 
-              body{
-                margin:0 !important;
-                padding:0 !important;
+              body {
+                margin: 0 !important;
+                padding: 0 !important;
               }
 
-              #report{
-                margin:0 auto !important;
-                padding:24px !important;
-                max-width:960px;
+              #report {
+                max-width: 960px;
+                margin: 0 auto !important;
+                padding: 24px !important;
+                background: #0b0e14 !important;
+                color: #f5f7fb !important;
               }
 
               @page {
@@ -777,16 +789,15 @@ PDF_BUTTON_HTML = """
               }
 
               #report,
-              #report *,
-              .report-card {
+              #report * {
                 break-inside: avoid !important;
                 page-break-inside: avoid !important;
+                box-sizing: border-box;
               }
 
-              #report > div{
+              #report > div {
                 break-inside: avoid !important;
                 page-break-inside: avoid !important;
-                margin-bottom: 16px;
               }
 
               #report h2,
@@ -796,6 +807,7 @@ PDF_BUTTON_HTML = """
               #report ul,
               #report li {
                 break-inside: avoid !important;
+                page-break-inside: avoid !important;
               }
 
               @media print {
@@ -805,14 +817,14 @@ PDF_BUTTON_HTML = """
                   print-color-adjust: exact !important;
                 }
 
-                body{
-                  padding:0 !important;
+                body {
+                  padding: 0 !important;
                 }
 
-                #report{
-                  max-width:100% !important;
-                  margin:0 !important;
-                  padding:20px !important;
+                #report {
+                  max-width: 100% !important;
+                  margin: 0 !important;
+                  padding: 20px !important;
                 }
               }
             </style>
@@ -822,12 +834,21 @@ PDF_BUTTON_HTML = """
           </body>
         </html>
       `);
-      win.document.close();
+      doc.close();
+
+      iframe.onload = function() {
+        setTimeout(() => {
+          iframe.contentWindow.focus();
+          iframe.contentWindow.print();
+        }, 300);
+      };
 
       setTimeout(() => {
-        win.focus();
-        win.print();
-      }, 500);
+        try {
+          iframe.contentWindow.focus();
+          iframe.contentWindow.print();
+        } catch (e) {}
+      }, 800);
     '
   >
     📄 PDF herunterladen

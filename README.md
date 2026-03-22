@@ -135,8 +135,8 @@ Reality-Check/
 ### 1. Repository klonen
 
 ```bash
-git clone https://github.com/DEIN-USERNAME/love-reality-check.git
-cd love-reality-check
+git clone https://github.com/DEIN-USERNAME/reality-check.git
+cd reality-check
 ```
 
 ### 2. Virtuelle Umgebung erstellen
@@ -183,67 +183,11 @@ HF_MODEL=meta-llama/Llama-3.1-8B-Instruct:cerebras
 python app.py
 ```
 
-Danach im Browser öffnen:
+Danach läuft die App im Browser unter:
 
 ```text
 http://127.0.0.1:7860
 ```
-
-
-
-
-
-
-
-```bash
-# Repository klonen
-git clone https://github.com/DEIN-USERNAME/Reality-Check.git
-cd Reality-Check
-
-# Virtuelle Umgebung erstellen
-python3 -m venv venv
-source venv/bin/activate
-
-# Dependencies installieren
-pip install -r requirements.txt
-```
-
----
-
-## ✦ Umgebungsvariablen
-
-```bash
-cp .env.example .env
-```
-
-Dann z. B. eintragen:
-
-```env
-HF_API_KEY=dein_token
-HF_MODEL=meta-llama/Llama-3.1-8B-Instruct:cerebras
-```
-
----
-
-## ✦ OCR Installation
-
-```bash
-sudo apt install tesseract-ocr -y
-sudo apt install tesseract-ocr-deu -y
-```
-
-Wenn du Screenshots analysieren möchtest, ist Tesseract erforderlich.
-
----
-
-## ✦ Starten
-
-```bash
-python app.py
-```
-
-Die App läuft dann auf `http://127.0.0.1:7860`.
-
 ---
 
 ## ✦ Datenschutz

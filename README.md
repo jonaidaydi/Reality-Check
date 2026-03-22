@@ -58,18 +58,17 @@ Reality Check will nicht entscheiden, was du fühlen sollst — sondern dir helf
 
 ---
 
-## ✦ Beispiel Output
+## ✦ Anwendungsfälle
 
-```text
-Red Flag Score: 7/10
+Das Tool eignet sich zum Beispiel für:
 
-Verbindlichkeit: 3/10
-Konsistenz: 2/10
-Emotionale Klarheit: 4/10
+- Chatverläufe mit gemischten Signalen
+- emotionale Unsicherheit nach Kennenlernphasen
+- nüchterne Selbstreflexion nach konflikthaften Gesprächen
+- erste Einordnung von Kommunikationsmustern
+- strukturierte Betrachtung statt impulsiver Interpretation
 
-→ Muster: Distanz, Inkonsistenz, Unsicherheit
-→ Tendenz: emotional unklar, kommunikativ nicht stabil
-```
+
 
 ---
 

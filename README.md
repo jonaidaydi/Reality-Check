@@ -252,7 +252,7 @@ Dieses Tool ersetzt nicht:
 
 <div align="center">
 
-*❤️ Built with focus on clarity, emotion and truth*
+*❤️*
 
 <sub>Made for reflection, not illusion.</sub>
 

@@ -132,6 +132,69 @@ Reality-Check/
 
 ## ✦ Lokale Installation
 
+### 1. Repository klonen
+
+```bash
+git clone https://github.com/DEIN-USERNAME/love-reality-check.git
+cd love-reality-check
+```
+
+### 2. Virtuelle Umgebung erstellen
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Abhängigkeiten installieren
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. OCR installieren
+
+Für Screenshot-Analyse mit Tesseract:
+
+```bash
+sudo apt update
+sudo apt install tesseract-ocr -y
+sudo apt install tesseract-ocr-deu -y
+```
+
+### 5. Umgebungsvariablen konfigurieren
+
+```bash
+cp .env.example .env
+```
+
+Dann in `.env` eintragen:
+
+```env
+HF_API_KEY=dein_token
+HF_MODEL=meta-llama/Llama-3.1-8B-Instruct:cerebras
+```
+
+---
+
+## Starten
+
+```bash
+python app.py
+```
+
+Danach im Browser öffnen:
+
+```text
+http://127.0.0.1:7860
+```
+
+
+
+
+
+
+
 ```bash
 # Repository klonen
 git clone https://github.com/DEIN-USERNAME/Reality-Check.git

@@ -1,0 +1,21 @@
+Analysiere, ob im Text eher echte Verbindung oder Projektion/Idealisierung erkennbar ist.
+
+Achte besonders auf:
+- Idealisierung
+- Hoffnungen ohne reale Grundlage
+- emotionale Abhängigkeit
+- Interpretation statt beobachtbarer Fakten
+- Verwechslung von Sehnsucht mit echter Gegenseitigkeit
+
+Gib die Antwort in dieser Struktur:
+
+1. Was im Text real beobachtbar ist
+2. Wo Projektion eine Rolle spielen könnte
+3. Was eher für echte Verbindung sprechen würde
+4. Nüchterne Gesamteinschätzung
+5. Eine ruhige Reflexionsfrage an den Nutzer
+
+Wichtig:
+- Sei klar, reflektiert und respektvoll.
+- Erfinde keine Motive.
+- Trenne Gefühl und Realität sauber.

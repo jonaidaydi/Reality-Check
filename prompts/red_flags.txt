@@ -1,0 +1,15 @@
+Antworte nur als JSON:
+
+{
+  "tendenz": "",
+  "red_flag_score": 0,
+  "verbindlichkeit": 0,
+  "konsistenz": 0,
+  "emotionale_klarheit": 0,
+  "red_flags": [],
+  "kurzanalyse": "",
+  "hinweis": ""
+}
+
+Sei realistisch, nicht übertreiben.
+Scores von 0-10.

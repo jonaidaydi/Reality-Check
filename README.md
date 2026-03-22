@@ -44,18 +44,17 @@ Reality Check will nicht entscheiden, was du fühlen sollst — sondern dir helf
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔍 **Reality Check statt Bauchgefühl**
-- 🚩 **Automatische Red Flag Erkennung**
-- 📊 **Scores (0–10) für:**
-  - Verbindlichkeit
-  - Konsistenz
-  - Emotionale Klarheit
-- 🧠 **Strukturierte Analyse + Fazit**
-- 📄 **PDF Export im UI-Design**
-- 📸 **OCR für Screenshots (Tesseract)**
-- 📱 **Mobile optimiert**
+| Bereich | Beschreibung |
+|---|---|
+| 🔍 Reality Check | Analysiert Texte nicht romantisch, sondern strukturiert |
+| 🚩 Red-Flag-Erkennung | Erkennt mögliche Muster wie Distanz, Widersprüche oder Unklarheit |
+| 📊 Scoring-System | Bewertet Verbindlichkeit, Konsistenz und emotionale Klarheit |
+| 🧠 KI-Auswertung | Erstellt ein Fazit mit nachvollziehbarer sprachlicher Einordnung |
+| 📄 PDF-Export | Export direkt aus dem Interface im UI-nahen Layout |
+| 📸 OCR-Support | Extrahiert Text aus Screenshots via Tesseract |
+| 📱 Responsive UI | Nutzbar auf Desktop und Mobilgeräten |
 
 ---
 

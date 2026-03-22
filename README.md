@@ -44,35 +44,18 @@ Reality Check will nicht entscheiden, was du fühlen sollst — sondern dir helf
 
 ---
 
-## ✦ Features
+## ✨ Features
 
-**Reality Check Analyse**<br>
-Strukturierte Auswertung statt reiner Intuition oder Wunschinterpretation
-</br>
-<br>
-**Red Flag Detection**<br>
-Erkennung typischer Warnmuster wie Distanz, Inkonsistenz, Unverbindlichkeit oder emotionale Unklarheit
-</br>
-<br>
-**Scoring-System**<br>
-Bewertung zentraler Faktoren wie Verbindlichkeit, Konsistenz und emotionale Klarheit
-</br>
-<br>
-**Strukturierte Zusammenfassung**<br>
-Klare Einordnung der Dynamik mit kompaktem Fazit und erkennbaren Mustern
-</br>
-<br>
-**PDF Export**<br>
-Export direkt aus dem Interface im UI-nahen Stil zur Reflexion oder zum Teilen
-</br>
-<br>
-**OCR Support**<br>
-Screenshots von Chats können per Tesseract in Text umgewandelt und analysiert werden
-</br>
-<br>
-**Mobile-Ready**<br>
-Responsives Interface für Smartphone, Tablet und Desktop
-</br>
+- 🔍 **Reality Check statt Bauchgefühl**
+- 🚩 **Automatische Red Flag Erkennung**
+- 📊 **Scores (0–10) für:**
+  - Verbindlichkeit
+  - Konsistenz
+  - Emotionale Klarheit
+- 🧠 **Strukturierte Analyse + Fazit**
+- 📄 **PDF Export im UI-Design**
+- 📸 **OCR für Screenshots (Tesseract)**
+- 📱 **Mobile optimiert**
 
 ---
 
